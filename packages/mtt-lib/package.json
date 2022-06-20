@@ -1,0 +1,31 @@
+{
+  "name": "mtt-lib",
+  "version": "1.0.0",
+  "description": "Core library for my-t-tracker",
+  "main": "index.mjs",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0",
+    "sinon-chai": "^3.7.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstroliadavis/my-t-tracker.git"
+  },
+  "keywords": [
+    "time",
+    "tracking",
+    "productivity",
+    "library"
+  ],
+  "author": "Chris Strolia-Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cstroliadavis/my-t-tracker/issues"
+  },
+  "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme"
+}

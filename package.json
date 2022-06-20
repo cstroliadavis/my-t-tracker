@@ -1,0 +1,30 @@
+{
+  "name": "my-t-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A general time tracker that allows multiple ways to easily keep track of how you spend time every day.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstroliadavis/my-t-tracker.git"
+  },
+  "keywords": [
+    "time tracker",
+    "productivity",
+    "time",
+    "tracking",
+    "timesheet"
+  ],
+  "author": "Chris Strolia-Davis",
+  "license": "ISC",
+  "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme",
+  "node": ">=18.0.0",
+  "workspaces": [
+    "packages/mtt-cli",
+    "packages/mtt-lib",
+    "packages/mtt-storage-mem",
+    "packages/mtt-storage-mongo",
+    "packages/mtt-storage-mysql",
+    "packages/mtt-service",
+    "packages/mtt-web-ui"
+  ]
+}
