@@ -1,7 +1,7 @@
 {
-  "name": "mtt-lib",
+  "name": "@mtt/cli",
   "version": "1.0.0",
-  "description": "Core library for my-t-tracker",
+  "description": "CLI for my-t-tracker",
   "main": "index.mjs",
   "devDependencies": {
     "chai": "^4.3.6",
@@ -18,11 +18,11 @@
   },
   "keywords": [
     "time",
-    "tracking",
     "productivity",
-    "library"
+    "tracking",
+    "cli"
   ],
-  "author": "Chris Strolia-Davis",
+  "author": "Chris Strolia-DAvis",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cstroliadavis/my-t-tracker/issues"

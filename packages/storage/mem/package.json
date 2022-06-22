@@ -1,7 +1,7 @@
 {
-  "name": "mtt-cli",
+  "name": "@mtt/storage-mem",
   "version": "1.0.0",
-  "description": "CLI for my-t-tracker",
+  "description": "Memory based persisted storage for my-t-tracker",
   "main": "index.mjs",
   "devDependencies": {
     "chai": "^4.3.6",
@@ -18,14 +18,20 @@
   },
   "keywords": [
     "time",
-    "productivity",
     "tracking",
-    "cli"
+    "productivity",
+    "storage",
+    "db",
+    "memory",
+    "testing"
   ],
-  "author": "Chris Strolia-DAvis",
+  "author": "Chris Strolia-Davis",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cstroliadavis/my-t-tracker/issues"
   },
-  "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme"
+  "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme",
+  "dependencies": {
+    "@mtt/factory-data": "^1.0.0"
+  }
 }

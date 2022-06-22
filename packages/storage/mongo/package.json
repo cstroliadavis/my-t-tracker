@@ -1,5 +1,5 @@
 {
-  "name": "mtt-storage-mongo",
+  "name": "@mtt/storage-mongo",
   "version": "1.0.0",
   "description": "Mongo based persisted storage for my-t-tracker",
   "main": "index.mjs",
@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/cstroliadavis/my-t-tracker/issues"
   },
-  "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme"
+  "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme",
+  "dependencies": {
+    "@mtt/factory-data": "^1.0.0"
+  }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "mtt-storage-mysql",
+  "name": "@mtt/web-ui",
   "version": "1.0.0",
-  "description": "Mysql base persisted storage for my-t-tracker",
+  "description": "web interface for my-t-tracker",
   "main": "index.mjs",
   "devDependencies": {
     "chai": "^4.3.6",
@@ -18,11 +18,11 @@
   },
   "keywords": [
     "time",
-    "tracking",
+    "tracker",
     "productivity",
-    "storage",
-    "db",
-    "mysql"
+    "web",
+    "ui",
+    "express"
   ],
   "author": "Chris Strolia-Davis",
   "license": "MIT",

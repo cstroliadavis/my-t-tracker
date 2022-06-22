@@ -1,16 +1,11 @@
 {
-  "name": "mtt-service",
+  "name": "@mtt/factory-data",
   "version": "1.0.0",
-  "description": "web service interface for my-t-tracker",
+  "description": "Factory data for initial build of my-t-tracker",
   "main": "index.mjs",
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "mocha": "^10.0.0",
-    "sinon": "^14.0.0",
-    "sinon-chai": "^3.7.0"
-  },
+  "devDependencies": {},
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,11 +13,9 @@
   },
   "keywords": [
     "time",
-    "tracker",
-    "productivity",
-    "express",
-    "web",
-    "service"
+    "tracking",
+    "data",
+    "factory"
   ],
   "author": "Chris Strolia-Davis",
   "license": "MIT",

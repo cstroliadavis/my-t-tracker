@@ -19,12 +19,13 @@
   "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme",
   "node": ">=18.0.0",
   "workspaces": [
-    "packages/mtt-cli",
-    "packages/mtt-lib",
-    "packages/mtt-storage-mem",
-    "packages/mtt-storage-mongo",
-    "packages/mtt-storage-mysql",
-    "packages/mtt-service",
-    "packages/mtt-web-ui"
+    "packages/cli",
+    "packages/lib",
+    "packages/service",
+    "packages/storage/factory-data",
+    "packages/storage/mem",
+    "packages/storage/mongo",
+    "packages/storage/mysql",
+    "packages/web-ui"
   ]
 }

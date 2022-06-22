@@ -1,7 +1,7 @@
 {
-  "name": "mtt-storage-mem",
+  "name": "@mtt/mtt",
   "version": "1.0.0",
-  "description": "Memory based persisted storage for my-t-tracker",
+  "description": "Core library for my-t-tracker",
   "main": "index.mjs",
   "devDependencies": {
     "chai": "^4.3.6",
@@ -20,15 +20,16 @@
     "time",
     "tracking",
     "productivity",
-    "storage",
-    "db",
-    "memory",
-    "testing"
+    "library"
   ],
   "author": "Chris Strolia-Davis",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cstroliadavis/my-t-tracker/issues"
   },
-  "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme"
+  "homepage": "https://github.com/cstroliadavis/my-t-tracker#readme",
+  "dependencies": {
+    "dayjs": "^1.11.3",
+    "@mtt/storage-mem": "^1.0.0"
+  }
 }

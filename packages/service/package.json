@@ -1,7 +1,7 @@
 {
-  "name": "mtt-web-ui",
+  "name": "@mtt/service",
   "version": "1.0.0",
-  "description": "web interface for my-t-tracker",
+  "description": "web service interface for my-t-tracker",
   "main": "index.mjs",
   "devDependencies": {
     "chai": "^4.3.6",
@@ -20,9 +20,9 @@
     "time",
     "tracker",
     "productivity",
+    "express",
     "web",
-    "ui",
-    "express"
+    "service"
   ],
   "author": "Chris Strolia-Davis",
   "license": "MIT",
